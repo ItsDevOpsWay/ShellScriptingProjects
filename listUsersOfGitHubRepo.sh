@@ -34,7 +34,7 @@ function github_api_get {
         local url="${API_URL}/${endpoint}"
 	
 	#Send a GET Request to the GitHub API with authentication
-	curl -s -u "${USERNAME}:${TOKEN}" "url"
+	curl -s -u "${USERNAME}:${TOKEN}" "$url"
 }
 
 
