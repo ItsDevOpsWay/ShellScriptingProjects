@@ -39,7 +39,7 @@ function github_api_get {
 
 
 #Function to list the users with read access to the repository
-function list_users_with_read_access{
+function list_users_with_read_access {
 	local endpoint="repos/${REPO_OWNER}/${REPO_NAME}/collaborators"
 
 	#Fetch the list of collaborators on the repository
